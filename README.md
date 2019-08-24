@@ -10,10 +10,10 @@ This project aims to build a variational autoencoder (VAE) to generate arbitrary
 A command-line letters/digits generator based on ldg_v2 Conv-CVAE model (details below). It simply loads the Conv-CVAE model and the corresponding best weights to produce results.
 
 <p align="center">
-<img src="Letter_digit_generator/images/ldg_v2_gen_help.png" width="50%">
+<img src="images/ldg_v2_gen_help.png" width="50%">
 </p>
 <p align="center">
-<img src="Letter_digit_generator/images/ldg_v2_gen_summary.png" width="100%">
+<img src="images/ldg_v2_gen_summary.png" width="100%">
 </p>
 
 ### [letter_digit_generator_convolutional-CVAE](https://github.com/sungsujaing/letter_digit_generator_VAE/blob/master/letter_digit_generator_v2_conv-CVAE.ipynb) and [letter_digit_generator_vanilla-CVAE](https://github.com/sungsujaing/letter_digit_generator_VAE/blob/master/letter_digit_generator_v2_CVAE.ipynb)
