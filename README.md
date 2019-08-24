@@ -6,19 +6,32 @@ This project aims to build a variational autoencoder (VAE) to generate arbitrary
 </p>
 
 ## LDG Version 2
+### [ldg_v2_gen](https://github.com/sungsujaing/Artificial_Intelligence_Data_Science_Portfolio/blob/master/Letter_digit_generator/ldg_v2_gen.py):
+A command-line letters/digits generator based on ldg_v2 Conv-CVAE model (details below). It simply loads the Conv-CVAE model and the corresponding best weights to produce results.
+
+<p align="center">
+<img src="Letter_digit_generator/images/ldg_v2_gen_help.png" width="50%">
+</p>
+<p align="center">
+<img src="Letter_digit_generator/images/ldg_v2_gen_summary.png" width="100%">
+</p>
+
 ### [letter_digit_generator_convolutional-CVAE](https://github.com/sungsujaing/letter_digit_generator_VAE/blob/master/letter_digit_generator_v2_conv-CVAE.ipynb) and [letter_digit_generator_vanilla-CVAE](https://github.com/sungsujaing/letter_digit_generator_VAE/blob/master/letter_digit_generator_v2_CVAE.ipynb)
 * label inputs to both encoder and decoder
 ### Training
+
 <p align="center">
 <img src="images/summary_ldg_v2_training.png" width="65%"></p>
 </p>
 
 ### Dataset reconstruction 
+
 <p align="center">
 <img src="images/summary_ldg_v2_reconstruction.png" width="85%"></p>
 </p>
 
 ### Generating new letters/digits
+
 <p align="center">
 <img src="images/summary_ldg_v2_testing.png" width="100%"></p>
 </p>
